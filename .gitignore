@@ -1,0 +1,29 @@
+# Android / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+*/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore — 切勿提交
+*.jks
+*.keystore
+
+# IDE / 本地工具配置（不上传）
+.cursor/
+
+# 内部开发流程文件（不上传）
+AGENTS.md
+STATE.md
+LOOP.md
+gate.yaml
+loop-*.md
